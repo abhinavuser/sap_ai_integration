@@ -1,0 +1,94 @@
+{
+  "name": "agentic-llm-abap-framework",
+  "version": "1.0.0",
+  "description": "A comprehensive framework that integrates Large Language Models (LLMs) with SAP ABAP development environments, enabling intelligent code generation, analysis, and automation through agentic AI systems.",
+  "keywords": [
+    "sap",
+    "abap",
+    "llm",
+    "ai",
+    "agentic",
+    "code-generation",
+    "eclipse-plugin",
+    "design-patterns"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@company.com",
+    "organization": "Your Company"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/agentic-llm-abap-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/agentic-llm-abap-framework/issues"
+  },
+  "homepage": "https://github.com/your-username/agentic-llm-abap-framework#readme",
+  "projectStructure": {
+    "abap": {
+      "source": "src/",
+      "core": "src/zllm_00/",
+      "applications": "src/zllm_99/",
+      "designPatterns": "abap/",
+      "documentation": "docs/"
+    },
+    "eclipse": {
+      "plugin": "version_abap/com.developer.nefarious.zjoule.plugin/",
+      "feature": "version_abap/com.developer.nefarious.zjoule.feature/",
+      "tests": "version_abap/com.developer.nefarious.zjoule.test/",
+      "updatesite": "version_abap/com.developer.nefarious.zjoule.updatesite/"
+    },
+    "ml": {
+      "models": "_predictoken/",
+      "scripts": "scripts/",
+      "data": "data/"
+    }
+  },
+  "requirements": {
+    "sap": {
+      "version": "7.50+",
+      "components": ["SAP NetWeaver", "SAP S/4HANA"]
+    },
+    "python": {
+      "version": "3.8+",
+      "dependencies": "requirements.txt"
+    },
+    "eclipse": {
+      "version": "2023-12+",
+      "plugins": ["ABAP Development Tools (ADT)"]
+    }
+  },
+  "features": {
+    "llm": {
+      "providers": ["OpenAI", "Azure OpenAI", "Ollama", "Local Models"],
+      "capabilities": ["Chat Completion", "Embeddings", "Function Calling"]
+    },
+    "agentic": {
+      "reasoning": true,
+      "planning": true,
+      "execution": true,
+      "learning": true,
+      "collaboration": true
+    },
+    "abap": {
+      "designPatterns": 20,
+      "codeGeneration": true,
+      "analysis": true,
+      "refactoring": true
+    },
+    "eclipse": {
+      "integration": true,
+      "ui": true,
+      "preferences": true
+    }
+  },
+  "scripts": {
+    "train": "python train_models.py",
+    "predict": "python predict.py",
+    "test": "python -m pytest tests/",
+    "build": "cd version_abap && mvn clean install",
+    "docs": "python scripts/generate_docs.py"
+  }
+} 
