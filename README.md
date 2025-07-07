@@ -144,7 +144,7 @@ print("Predicted tokens:", result["predicted_tokens"])
 
 ##  Final Notes
 
-- All code and examples tested on SAP S/4HANA 2022 and Python 3.8+
+- All code and examples tested on SAP S/4HANA 2022.
 - For research methodology, KPIs, and next steps, see [NEXT_STEPS_RESEARCH.md](NEXT_STEPS_RESEARCH.md)
 - For GenAI SAP integration, see [docs/GENAI_SAP_INTEGRATION.md](docs/GENAI_SAP_INTEGRATION.md)
 
