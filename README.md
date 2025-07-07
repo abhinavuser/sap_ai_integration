@@ -315,30 +315,5 @@ python test_token_prediction.py
 4. Add comprehensive tests
 5. Submit a pull request
 
-### Coding Standards
-
-- Follow SAP ABAP coding guidelines
-- Use meaningful variable names
-- Include comprehensive documentation
-- Write unit tests for all classes
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- SAP ABAP Development Tools team
-- OpenAI API documentation
-- ABAP Design Patterns community
-- Eclipse Plugin Development community
-
-## 📞 Support
-
-- **Issues**: [GitHub Issues](https://github.com/your-repo/issues)
-- **Documentation**: [Wiki](https://github.com/your-repo/wiki)
-- **Email**: support@your-company.com
-
----
 
 **Note**: This is an internship project demonstrating advanced LLM integration with SAP ABAP development environments. The framework provides a foundation for building intelligent, agentic systems that can assist developers in creating better ABAP applications. 
