@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension point="org.eclipse.ui.views">
+      <category
+            name="ABAP Copilot"
+            id="com.developer.nefarious.zjoule.plugin">
+      </category>
+      <view
+            id="com.developer.nefarious.zjoule.plugin.core.ui.ViewListener"
+            name="zjoule"
+            icon="resources/icons/sample.png"
+            class="com.developer.nefarious.zjoule.plugin.core.ui.ViewListener"
+            category="com.developer.nefarious.zjoule.plugin"
+            inject="true">
+      </view>
+   </extension>
+   
+   <extension point="org.eclipse.ui.perspectiveExtensions">
+      <perspectiveExtension targetID="org.eclipse.jdt.ui.JavaPerspective">
+         <view
+               id="com.developer.nefarious.zjoule.plugin.core.ui.ViewListener"
+               relative="org.eclipse.ui.views.ProblemView"
+               relationship="stack">
+        	</view>
+    	</perspectiveExtension>
+    </extension>
+
+	<extension point="org.eclipse.ui.preferencePages">
+    <page 
+        id="com.developer.nefarious.zjoule.plugin.core.preferences.PluginPreferencesPage"
+        name="ABAP Copilot"
+        class="com.developer.nefarious.zjoule.plugin.core.preferences.PluginPreferencesPage">
+    </page>
+</extension>
+
+</plugin>
