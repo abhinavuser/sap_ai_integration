@@ -4,7 +4,7 @@
 
 ---
 
-## 🚀 Executive Summary
+##  Executive Summary
 
 The Agentic LLM Framework for SAP is a production-grade, research-backed platform that brings Generative AI and agentic automation to SAP ABAP development and business processes. It enables:
 - **Intelligent ABAP code generation, refactoring, and review**
@@ -15,7 +15,7 @@ The Agentic LLM Framework for SAP is a production-grade, research-backed platfor
 
 ---
 
-## 📦 Project Structure
+##  Project Structure
 
 | Directory/File         | Purpose                                      |
 |-----------------------|----------------------------------------------|
@@ -30,7 +30,7 @@ The Agentic LLM Framework for SAP is a production-grade, research-backed platfor
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TD
@@ -51,7 +51,7 @@ graph TD
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 - **GenAI SAP Integration**: [See full details](docs/GENAI_SAP_INTEGRATION.md)
   - Invoice processing, report generation, workflow automation, predictive analytics, voice/image AI
@@ -64,7 +64,7 @@ graph TD
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. **SAP ABAP Setup**
 ```abap
@@ -89,7 +89,7 @@ cd version_abap && mvn clean install
 
 ---
 
-## 💡 Usage Examples
+##  Usage Examples
 
 ### ABAP: GenAI Invoice Processing
 ```abap
@@ -115,7 +115,7 @@ print("Predicted tokens:", result["predicted_tokens"])
 
 ---
 
-## 📊 Research & Business Value
+##  Research & Business Value
 
 - **Research Plan**: [See full plan](NEXT_STEPS_RESEARCH.md)
 - **KPIs**: 40-60% dev time reduction, 95%+ code accuracy, 80%+ user satisfaction
@@ -124,7 +124,7 @@ print("Predicted tokens:", result["predicted_tokens"])
 
 ---
 
-## 🧩 Design Patterns
+##  Design Patterns
 
 - **Creational**: Factory, Abstract Factory, Singleton, Builder, Prototype
 - **Structural**: Adapter, Bridge, Composite, Decorator, Facade, Flyweight, Proxy
@@ -134,7 +134,7 @@ print("Predicted tokens:", result["predicted_tokens"])
 
 ---
 
-## 🛡️ Security & Compliance
+##  Security & Compliance
 
 - API key encryption, GDPR compliance, SAP security standards
 - Penetration testing, audit logging, rate limiting
@@ -142,7 +142,7 @@ print("Predicted tokens:", result["predicted_tokens"])
 ---
 
 
-## 🏁 Final Notes
+##  Final Notes
 
 - All code and examples tested on SAP S/4HANA 2022 and Python 3.8+
 - For research methodology, KPIs, and next steps, see [NEXT_STEPS_RESEARCH.md](NEXT_STEPS_RESEARCH.md)
